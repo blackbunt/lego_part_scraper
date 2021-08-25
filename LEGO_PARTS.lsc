@@ -1,0 +1,400 @@
+{
+  "version": "2.3.4-Mac-Store",
+  "path": "/Users/bernie/Documents/LEGO_PARTS.lsc",
+  "labelConfig": {
+    "rulerEnabled": false,
+    "printLabelBackground": false,
+    "heightMeasure": 29,
+    "widthMeasure": 62,
+    "roundPercent": 0.035,
+    "shape": {
+      "rotate": false,
+      "barWidth": null,
+      "barHeight": null,
+      "tWidth": null,
+      "inRadiusPercent": null
+    },
+    "dpi": 300,
+    "rotate": false,
+    "rotate180": false,
+    "metric": true,
+    "printerConfig": {
+      "CUT_MODE": "CUT_MODE_NONE",
+      "MOCK_TARGET_PRINTER": null,
+      "SHEET_MARGIN_TOP": "13.005",
+      "SHEET_SIZE_HEIGHT": "279.4",
+      "DPI_MODE": 300,
+      "SHEET_SIZE_WIDTH": "215.9",
+      "SHEET_SPACING_H": "3.81",
+      "SHEET_SIZE_SCALE": "1",
+      "IGNORE_JOB_HANDLES_COPIES": false,
+      "SHEET_MARGIN_LEFT": "4.242",
+      "PRINTER_COPIES": 1,
+      "MOCK_MODE": "MOCK_MODE_PRINT",
+      "SHEET_SPACING_V": "0",
+      "PRINTER_ROWS": null,
+      "COLOR_MODE": "COLOR_MODE_1C"
+    },
+    "ditherKind": "DITHER_KIND_ATKINSON",
+    "ditherConfig": {},
+    "originX": "left",
+    "originY": "top",
+    "userContinuous": false,
+    "autosizeOnPrint": true,
+    "marginTopMultiplier": 0,
+    "marginBottomMeasure": 2.032
+  },
+  "canvasRecord": {
+    "objects": [
+      {
+        "id": "44f08429-ecba-47da-b094-61b8ff9386dd",
+        "type": "ELEMENT_IMAGE_DYNAMIC",
+        "config": {
+          "fill": "#000000",
+          "strokeKey": "ink",
+          "scale": 2,
+          "text": "https://www.ldraw.org/library/official/images/parts/{PART_ID}.png",
+          "kindId": "DITHER_KIND_ATKINSON",
+          "colors": "",
+          "brightness": 0.32,
+          "originX": "right",
+          "originY": "center",
+          "fullColor": false,
+          "invert": false,
+          "makeWhiteTransparent": true,
+          "stroke": "#000000",
+          "hiddenColors": "",
+          "rotate": false,
+          "fillKey": "ink"
+        },
+        "fabricRep": {},
+        "selected": false,
+        "highlighted": false,
+        "editing": false,
+        "hideOnPrint": false
+      },
+      {
+        "id": "490f0ccc-d718-4bee-b384-a9541a699038",
+        "type": "ELEMENT_TEXT",
+        "config": {
+          "splitByGrapheme": false,
+          "autoFit": false,
+          "lastText": "text",
+          "fill": "#000000",
+          "strokeKey": "none",
+          "fontId": "ls-font-ab2ecef61315536cba6e59dcda0de2bd",
+          "charSpacing": 0,
+          "multiline": true,
+          "text": "{NAME} \n{PART_ID}",
+          "strokeWidth": 0,
+          "originX": "left",
+          "originY": "center",
+          "textAlign": "left",
+          "stroke": null,
+          "calcPtSize": 10,
+          "lineHeight": 1.16,
+          "fillKey": "ink"
+        },
+        "fabricRep": {},
+        "selected": false,
+        "highlighted": false,
+        "editing": false,
+        "hideOnPrint": false
+      }
+    ],
+    "fabricRep": {
+      "version": "4.1.0",
+      "objects": [
+        {
+          "shadow": null,
+          "lockUniScaling": true,
+          "minScaleLimit": 0,
+          "fill": "#000000",
+          "globalCompositeOperation": "source-over",
+          "src": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTAwcHgiIGhlaWdodD0iMTAwcHgiIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggMy40LjIgKDE1ODU1KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5iYWQtaW1hZ2U8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iYmFkLWltYWdlIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBza2V0Y2g6dHlwZT0iTVNQYWdlIj4KICAgICAgICA8cmVjdCBpZD0iUmVjdGFuZ2xlLTEiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSIzIiBza2V0Y2g6dHlwZT0iTVNTaGFwZUdyb3VwIiB4PSIxIiB5PSIxIiB3aWR0aD0iOTgiIGhlaWdodD0iOTgiPjwvcmVjdD4KICAgICAgICA8cGF0aCBkPSJNMy45Nzc4NzgzMSwzLjk3Nzg3ODMxIEw5Ni4wMjIxMzMyLDk2LjAyMjEzMzIiIGlkPSJMaW5lIiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCI+PC9wYXRoPgogICAgICAgIDxwYXRoIGQ9Ik00LjcwNzE1NDMsOTUuNzgxMDMwNCBMOTYuNTEwNTI2MywzLjk3NzY1OTI0IiBpZD0iTGluZSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJzcXVhcmUiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiPjwvcGF0aD4KICAgIDwvZz4KPC9zdmc+",
+          "width": 114,
+          "strokeLineCap": "butt",
+          "crossOrigin": "",
+          "left": -39,
+          "height": 79,
+          "cropX": 0,
+          "lockRotation": false,
+          "lockScalingFlip": false,
+          "cropY": 0,
+          "opacity": 1,
+          "flipX": false,
+          "lockSkewingX": false,
+          "resizeFilter": {
+            "type": "Resize",
+            "scaleX": 2,
+            "scaleY": 2,
+            "resizeType": "bilinear",
+            "lanczosLobes": 3
+          },
+          "flipY": false,
+          "lockSkewingY": false,
+          "scaleX": 2,
+          "skewX": 0,
+          "strokeMiterLimit": 4,
+          "strokeWidth": 0,
+          "scaleY": 2,
+          "skewY": 0,
+          "strokeDashArray": null,
+          "visible": true,
+          "paintFirst": "fill",
+          "originX": "right",
+          "angle": 0,
+          "originY": "center",
+          "top": 0,
+          "backgroundColor": "",
+          "selectable": true,
+          "strokeLineJoin": "miter",
+          "version": "4.1.0",
+          "stroke": "#000000",
+          "staticWidth": 141,
+          "type": "image",
+          "scaleMax": 1.9827449545759404,
+          "uuid": "44f08429-ecba-47da-b094-61b8ff9386dd",
+          "filters": [
+            {
+              "type": "ReplaceColor",
+              "color": "rgba(1, 2, 3, 4)",
+              "newColor": "rgba(1, 2, 3, 4)",
+              "distance": 0
+            },
+            {
+              "type": "Dither",
+              "color": "#000000",
+              "rotate": false,
+              "brightness": 0.32,
+              "kindId": "DITHER_KIND_ATKINSON"
+            },
+            {
+              "type": "ReplaceColor",
+              "color": "rgba(1, 2, 3, 4)",
+              "newColor": "rgba(1, 2, 3, 4)",
+              "distance": 0
+            }
+          ],
+          "lockScalingX": false,
+          "strokeDashOffset": 0,
+          "lockScalingY": false,
+          "fillRule": "nonzero"
+        },
+        {
+          "splitByGrapheme": false,
+          "shadow": null,
+          "lockUniScaling": false,
+          "styles": {},
+          "fontStyle": "normal",
+          "minScaleLimit": 0,
+          "fill": "#000000",
+          "globalCompositeOperation": "source-over",
+          "width": 318.35,
+          "strokeLineCap": "butt",
+          "left": 19,
+          "height": 150.06,
+          "fontWeight": 100,
+          "textBackgroundColor": "",
+          "overline": false,
+          "lockRotation": false,
+          "lockScalingFlip": false,
+          "opacity": 1,
+          "flipX": false,
+          "lockSkewingX": true,
+          "flipY": false,
+          "underline": false,
+          "lockSkewingY": true,
+          "charSpacing": 0,
+          "text": "Slope Brick 45 2 x 6 \n23949",
+          "scaleX": 1.04,
+          "skewX": 0,
+          "strokeMiterLimit": 4,
+          "strokeWidth": 1,
+          "scaleY": 1.04,
+          "skewY": 0,
+          "strokeDashArray": null,
+          "fontSize": 40,
+          "linethrough": false,
+          "visible": true,
+          "paintFirst": "fill",
+          "originX": "left",
+          "fontFamily": "ls-font-ab2ecef61315536cba6e59dcda0de2bd",
+          "angle": 0,
+          "originY": "center",
+          "minWidth": 20,
+          "top": 0,
+          "backgroundColor": "",
+          "selectable": true,
+          "strokeLineJoin": "miter",
+          "version": "4.1.0",
+          "textAlign": "left",
+          "stroke": null,
+          "staticWidth": 318.3482362726676,
+          "type": "textbox",
+          "scaleMax": 1.0427488308270354,
+          "lineHeight": 1.16,
+          "uuid": "490f0ccc-d718-4bee-b384-a9541a699038",
+          "lockScalingX": false,
+          "strokeDashOffset": 0,
+          "lockScalingY": false,
+          "fillRule": "nonzero"
+        }
+      ]
+    },
+    "stateUuid": "6e64d924-2c26-4605-86b8-1cf466705ae9",
+    "drawing": false,
+    "lockMovement": false,
+    "fill": "#feffff",
+    "ink": "#000000",
+    "variables": [
+      {
+        "name": "PART_ID",
+        "kind": null,
+        "value": "23949",
+        "inUse": true,
+        "dataBacked": true,
+        "config": {}
+      },
+      {
+        "name": "NAME",
+        "kind": null,
+        "value": "Slope Brick 45 2 x 6",
+        "inUse": true,
+        "dataBacked": true,
+        "config": {}
+      }
+    ],
+    "import": {
+      "editing": false,
+      "renderUid": null,
+      "header": [],
+      "data": [],
+      "selectedRow": -1,
+      "source": null,
+      "dataSource": null,
+      "timestamp": 0,
+      "autoImport": true
+    }
+  },
+  "ui": {
+    "windowName": "ea9a202a-79df-4035-92b5-d820c5d2f281",
+    "recentDocs": [],
+    "recentDocsMeta": {},
+    "tabIndex": 3,
+    "dataTabIndex": 0,
+    "helpSettingsIndex": null,
+    "gpuEnabled": true,
+    "winStoreTrial": null,
+    "renderCount": 0,
+    "usbAvailable": true,
+    "formPrintOnEnter": true
+  },
+  "live": {
+    "enabled": false,
+    "topic": ""
+  },
+  "hashes": {
+    "_labelConfig": "LTE2OTAwNzM3NA==",
+    "_canvasRecord": "MTA1MzE5MzEwOA==",
+    "_ui": "LTI0OTAzNTM5NA==",
+    "_live": "LTM5OTQ4ODY2NA=="
+  },
+  "printerId": "MockImage",
+  "dataImport": {
+    "editing": false,
+    "renderUid": null,
+    "header": [
+      "PART_ID",
+      "NAME"
+    ],
+    "data": [
+      {
+        "PART_ID": "3040",
+        "NAME": "Slope Plate 45 2 x 1"
+      },
+      {
+        "PART_ID": "3039",
+        "NAME": "Slope Brick 45 2 x 2"
+      },
+      {
+        "PART_ID": "3038",
+        "NAME": "Slope Brick 45 2 x 3"
+      },
+      {
+        "PART_ID": "3037",
+        "NAME": "Slope Brick 45 2 x 4"
+      },
+      {
+        "PART_ID": "23949",
+        "NAME": "Slope Brick 45 2 x 6"
+      },
+      {
+        "PART_ID": "4445",
+        "NAME": "Slope Brick 45 2 x 8"
+      },
+      {
+        "PART_ID": "3045",
+        "NAME": "Slope Brick 45 2 x 2 Double Convex"
+      },
+      {
+        "PART_ID": "3046",
+        "NAME": "Slope Brick 45 2 x 2 Double Concave"
+      },
+      {
+        "PART_ID": "92946",
+        "NAME": "Slope Plate 45 2 x 1"
+      },
+      {
+        "PART_ID": "28192",
+        "NAME": "Slope Brick 45 2 x 1 with Cutout and without Stud"
+      },
+      {
+        "PART_ID": "3044",
+        "NAME": "Slope Brick 45 2 x 1 Double"
+      },
+      {
+        "PART_ID": "3043",
+        "NAME": "Slope Brick 45 2 x 2 Double"
+      },
+      {
+        "PART_ID": "3042",
+        "NAME": "Slope Brick 45 2 x 3 Double"
+      },
+      {
+        "PART_ID": "3049",
+        "NAME": "Slope Brick 45 1 x 2 Double / Inverted"
+      },
+      {
+        "PART_ID": "3046",
+        "NAME": "Slope Brick 45 1 x 2 Double / Inverted"
+      },
+      {
+        "PART_ID": "35464",
+        "NAME": "Slope Brick 45 1 x 1 Double"
+      },
+      {
+        "PART_ID": "22388",
+        "NAME": "Slope Brick 50 1 x 1 x 0.667 Quadruple"
+      },
+      {
+        "PART_ID": "13269",
+        "NAME": "Slope Brick 33/45 6 x 4 with 2 x 2 Cutout"
+      }
+    ],
+    "selectedRow": 4,
+    "source": null,
+    "dataSource": {
+      "resource": "filename",
+      "config": {
+        "path": "/Users/bernie/Documents/7_ANGLE-slope-45.xlsx",
+        "importIndex": 0,
+        "indexNames": [
+          "Tabelle1"
+        ]
+      }
+    },
+    "timestamp": 1629818321232,
+    "autoImport": true
+  }
+}
