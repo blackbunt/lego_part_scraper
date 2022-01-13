@@ -4,13 +4,15 @@ import os.path
 import re
 import urllib.request
 import xlsxwriter
+import sys
 
 
 # pattern = "([^\\r]*\s)(.+?(?=\\r))"
 
 def build_string(partnumber):
-    ldraw_url = 'https://www.ldraw.org/library/official/parts/'
-    return ldraw_url + str(partnumber) + ".dat"
+    ldraw_url = 'https://www.ldraw.org/library/official/parts/{partnumber}.dat'
+    ldraw_url.replace('{partnumber}', partnumber)
+    return ldraw_url
 
 
 def check_part_online(url, no):
@@ -41,7 +43,7 @@ def get_partinfo(url, no):
         if corr_file[2] is not None:
             if 'Moved to ' == str(corr_file[2]):
                 new_part_no = corr_file[3]
-                print("Part moved to " + new_part_no + ".")
+                print(f"Part moved to {new_part_no}.")
                 new_part = ["new", new_part_no]
                 return new_part
             else:
@@ -67,7 +69,7 @@ def name_workbook():
         if not filename == 'exit':
             filename_str = str(filename) + ".xlsx"
             # check for typos
-            input_name = input(filename_str + ". Is this correct? y/n ")
+            input_name = input(f"{filename_str}. Is this correct? y/n ")
             if input_name == "y":
                 # if file not exists, then create it
                 if not os.path.isfile(filename_str):
@@ -93,7 +95,7 @@ def name_workbook():
         else:
             # if input exit, then stop program
             print("Exiting...")
-            exit()
+            sys.exit()
 
 
 # Greetz
@@ -160,4 +162,4 @@ while True:
         # save changes and exit
         excel_file.close()
         print("Exiting...")
-        exit()
+        sys.exit()
