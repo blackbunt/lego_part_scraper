@@ -11,8 +11,8 @@ import sys
 
 def build_string(partnumber):
     ldraw_url = 'https://www.ldraw.org/library/official/parts/{partnumber}.dat'
-    ldraw_url.replace('{partnumber}', partnumber)
-    return ldraw_url
+    url = ldraw_url.replace('{partnumber}', partnumber)
+    return url
 
 
 def check_part_online(url, no):
